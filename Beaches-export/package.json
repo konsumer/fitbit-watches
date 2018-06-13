@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "d96d1924-6d06-48fc-b2de-bedc43214b01",
+    "appType": "clockface",
+    "appDisplayName": "Beaches",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Beaches"
+      }
+    }
+  }
+}

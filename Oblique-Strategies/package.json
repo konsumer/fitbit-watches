@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "d73fb144-90f2-422b-a971-0c6f3dcc6627",
+    "appType": "clockface",
+    "appDisplayName": "Oblique Strategies",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Oblique Strategies"
+      }
+    }
+  }
+}
