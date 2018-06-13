@@ -2,6 +2,8 @@
 
 I ported the Pebble watchfaces I made to Fitbit, but then realized I can't publish them without an actual watch.
 
+You can get `FBA` files on [the releases](https://github.com/konsumer/fitbit-watches/releases/) page.
+
 ## Oblique-Strategies
 
 ![Oblique-Strategies](screens/Oblique-Strategies-screenshot.png)
