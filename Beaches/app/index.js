@@ -8,7 +8,7 @@ const minHand = document.getElementById('mins')
 const secHand = document.getElementById('secs')
 
 // Returns an angle (0-360) for the current hour in the day, including minutes
-const hoursToAngle = (hours, minutes) => ( (360 / 12) * hours ) + ( (360 / 12 / 60) * minutes )
+const hoursToAngle = (hours, minutes) => ((360 / 12) * hours) + ((360 / 12 / 60) * minutes)
 
 // Returns an angle (0-360) for minutes
 const minutesToAngle = (minutes) => (360 / 60) * minutes

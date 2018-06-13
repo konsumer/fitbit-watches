@@ -26,8 +26,8 @@ clock.ontick = (evt) => {
     hours = pad(hours, 2, ' ')
     let mins = pad(today.getMinutes(), 2, '0')
     elTime.text = `${hours}:${mins}`
-    elStrategy.style.display = "none"
-    elTime.style.display = "inline"
+    elStrategy.style.display = 'none'
+    elTime.style.display = 'inline'
   }
 }
 
@@ -35,8 +35,8 @@ elBackground.onclick = (evt) => {
   showStrategy = !showStrategy
   if (showStrategy) {
     elStrategy.text = strategies[ Math.floor(strategies.length * Math.random()) ]
-    elStrategy.style.display = "inline"
-    elTime.style.display = "none"
+    elStrategy.style.display = 'inline'
+    elTime.style.display = 'none'
   }
   clock.ontick({date: new Date()})
 }
